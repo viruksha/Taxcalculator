@@ -4,13 +4,13 @@ import java.util.Scanner;
 
 public class Taxcalculator {
     // Method for TAX Calculation
-    public static void calculateTax(String name, long income)
+    public static void calculateTax(String name, long income)// Create a static method named calculateTax() that accepts two parameters
     {
-        long taxAmount;
-        long taxPercentage = 0L; // `L` for long type declarartion
+        long taxAmount; // As tax amount in long dt
+        long taxPercentage = 0L; // `L` for long type declarartion  tax percentage in long 
 
         // Deciding `taxpercentage` based on income
-        if (income >= 300000)
+        if (income >= 300000)  // As per our condition
         {
             taxPercentage = 20L;
         }
